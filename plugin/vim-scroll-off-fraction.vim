@@ -33,6 +33,6 @@ endfunction
 
 augroup ScrolloffFraction
   autocmd!
-  autocmd BufEnter,WinEnter,WinNew,VimResized *,*.*
+  autocmd BufEnter,WinEnter,WinNew,VimResized,CmdlineLeave *,*.*
         \ call ScrollOffFraction(g:scrolloff_fraction)
 augroup END
